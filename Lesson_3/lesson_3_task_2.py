@@ -6,6 +6,5 @@ catalog = [
     Smartphone("realme", "10", "+79499199191"),
     Smartphone("iphone", "13pro", "+79599199191")
     ]
-
 for phone in catalog:
     print(f"{phone.ph_brand} - {phone.ph_model}. {phone.ph_number}")

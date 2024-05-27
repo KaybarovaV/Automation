@@ -8,4 +8,3 @@ class User:
         print("Моя фамилия", self.last_name)
     def say_all(self):
         print("Я -", self.first_name, self.last_name)
-
