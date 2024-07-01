@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1e78ea4-3236-4b6e-b713-ced0a87ef20a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Automation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +53,24 @@
     "Python tests.Python tests for Lesson_4.test_string_utils.TestStringUtils.test_to_list_positive.executor": "Run",
     "Python tests.Python tests for test_string_utils.TestStringUtils.test_to_list_positive.executor": "Run",
     "Python tests.Python tests for test_string_utils.TestStringUtils.test_trim_positive.executor": "Debug",
+    "Python.1_Chrome.executor": "Run",
+    "Python.1_Click.executor": "Run",
+    "Python.1_Firefox.executor": "Run",
+    "Python.2_Chrome.executor": "Run",
+    "Python.2_Firefox.executor": "Run",
+    "Python.2_Rename.executor": "Run",
+    "Python.3_Chrome.executor": "Run",
+    "Python.3_Firefox.executor": "Run",
+    "Python.3_LoadImage.executor": "Run",
+    "Python.4_Chrome.executor": "Run",
+    "Python.4_Firefox.executor": "Run",
+    "Python.5_Chrome.executor": "Run",
+    "Python.5_Firefox.executor": "Run",
+    "Python.6_Chrome.executor": "Run",
+    "Python.6_Firefox.executor": "Run",
     "Python.calculator.executor": "Run",
     "Python.calculator_test.executor": "Run",
+    "Python.example.executor": "Run",
     "Python.labirint.executor": "Run",
     "Python.lesson_1_task_1.executor": "Run",
     "Python.lesson_1_task_5.executor": "Run",
@@ -71,7 +84,7 @@
     "Python.ya.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Lesson__4",
+    "git-widget-placeholder": "lesson6",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Вероника/PycharmProjects/Automation",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -82,8 +95,8 @@
       <recent name="C:\Users\Вероника\PycharmProjects\Automation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.labirint">
-    <configuration name="labirint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.3_LoadImage">
+    <configuration name="1_Click" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,11 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/labirint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_6/1_Click.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ya" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2_Chrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5_" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5/ya.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5_/2_Chrome.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,43 +140,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Lesson_4.test_string_utils.TestStringUtils.test_to_list_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="2_Rename" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lesson_4.test_string_utils.TestStringUtils.test_to_list_positive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_6/2_Rename.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Lesson_4.test_string_utils.TestStringUtils.test_trim_positive" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="3_Chrome" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Automation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_5_" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Lesson_4.test_string_utils.TestStringUtils.test_trim_positive&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_5_/3_Chrome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_LoadImage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Automation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson_6/3_LoadImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.labirint" />
-        <item itemvalue="Python.ya" />
-        <item itemvalue="Python tests.Python tests for Lesson_4.test_string_utils.TestStringUtils.test_to_list_positive" />
-        <item itemvalue="Python tests.Python tests for Lesson_4.test_string_utils.TestStringUtils.test_trim_positive" />
-        <item itemvalue="Python tests.Python tests for Lesson_4.test_string_utils.TestStringUtils.test_trim_positive" />
+        <item itemvalue="Python.3_LoadImage" />
+        <item itemvalue="Python.2_Rename" />
+        <item itemvalue="Python.1_Click" />
+        <item itemvalue="Python.3_Chrome" />
+        <item itemvalue="Python.2_Chrome" />
       </list>
     </recent_temporary>
   </component>
