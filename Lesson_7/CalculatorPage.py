@@ -1,6 +1,4 @@
 from selenium.webdriver.common.by import By
-
-
 class CalculatorPage:
     def __init__(self, driver):
         self._driver = driver
@@ -18,5 +16,5 @@ class CalculatorPage:
     def click_equals(self):
         self._driver.find_element(By.XPATH, "//span[text()='=']").click()
     def result(self):
-        result = self._driver.find_element(By.CSS_SELECTOR, '[class="screen"').text
+        result = self._driver.find_element(By.CSS_SELECTOR, '[class="screen"]').text
         return result

@@ -2,8 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from FormPage import FormPage
-from time import sleep
-
 def test_form_page():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     formpage = FormPage(driver)

@@ -6,7 +6,6 @@ from shop_pages.InventoryPage import InventoryPage
 from shop_pages.CartPage import CartPage
 from shop_pages.CheckoutPage import CheckoutPage
 from shop_pages.OverviewPage import OverviewPage
-
 def test_shop_page():
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
     shop_page = MainPage(driver)

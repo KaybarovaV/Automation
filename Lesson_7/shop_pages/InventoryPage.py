@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-
 class InventoryPage:
     def __init__(self, driver):
         self._driver = driver
