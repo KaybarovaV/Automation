@@ -2,7 +2,6 @@ import requests
 
 base_url = "https://x-clients-be.onrender.com"
 
-
 class Company:
     def my_token(self, user='leyla', password='water-fairy'):
         creds = {

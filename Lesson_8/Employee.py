@@ -3,7 +3,6 @@ from Company import *
 
 base_url = "https://x-clients-be.onrender.com"
 
-    # получить список сотрудников по id компании
 class Employee:
     def my_token(self, user='leyla', password='water-fairy'):
         creds = {
@@ -12,6 +11,7 @@ class Employee:
         }
         resp = requests.post(base_url + '/auth/login', json=creds)
         return resp.json()['userToken']
+    # получить список сотрудников по id компании
     def get_employee(self, company_id):
         resp = requests.get(base_url+'/employee', params={'company': company_id})
         return resp.json()
