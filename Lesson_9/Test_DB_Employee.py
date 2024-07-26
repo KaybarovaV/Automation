@@ -61,9 +61,6 @@ def test_add_employee_full():
     assert resp2["id"] == employee_id
     assert resp1.status_code == 201
 
-    # получим id сотрудника
-    employee_id = resp1.json()['id']
-
     # удалим сотрудника по id через БД и получим запись о нем
     db_empl = DB_Employee()
     db_empl.delete_employee(employee_id)
@@ -201,7 +198,7 @@ def test_edit_employee():
     assert get_empl == None
 
 # внесем изменения в данные сотрудника через БД
-def test_edit_employee_bd():
+def test_edit_employee_db():
     # получим id компании, где создадим сотрудника
     comp = DB_Company()
     company_id = comp.get_company_id()
