@@ -22,3 +22,4 @@ class DB_Company:
         sql = text("delete from company where id = :id")
         rows = db.execute(sql, id = comp_id)
         return rows
+    

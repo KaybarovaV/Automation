@@ -36,3 +36,4 @@ def test_form_page():
     assert "alert py-2 alert-success" in job_element.get_attribute("class")
     assert "alert py-2 alert-success" in company_element.get_attribute("class")
     driver.quit()
+    

@@ -75,3 +75,4 @@ class Employee:
         my_headers["x-client-token"] = token
         resp = requests.patch(base_url + '/employee/' + str(employee_id), headers=my_headers, json=new_data_employee)
         return resp.json()
+    

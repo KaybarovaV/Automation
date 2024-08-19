@@ -26,3 +26,4 @@ def test_shop_page():
     total = overview_page.total_price()
     assert total == 'Total: $58.29'
     driver.quit()
+    

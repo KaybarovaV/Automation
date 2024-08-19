@@ -17,3 +17,4 @@ class InventoryPage:
         Нажать кнопку shopping-cart-link (корзина)
         """
         self._driver.find_element(By.CSS_SELECTOR, '[data-test="shopping-cart-link"]').click()
+        

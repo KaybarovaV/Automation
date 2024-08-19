@@ -127,3 +127,4 @@ class FormPage:
         """
         company_element = self._driver.find_element(By.CSS_SELECTOR, '#company')
         return company_element
+    

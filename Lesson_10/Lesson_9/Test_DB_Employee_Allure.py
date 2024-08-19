@@ -224,3 +224,4 @@ def test_edit_employee_db():
 
     # проверим запись удаленного сотрудника в БД. Должно быть None
     assert get_empl == None
+    
