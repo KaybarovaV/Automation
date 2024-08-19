@@ -42,4 +42,3 @@ class Company:
         resp = self.get_company_list()
         last_company = resp[-1]
         return last_company['id']
-    

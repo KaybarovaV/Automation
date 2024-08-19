@@ -43,4 +43,3 @@ class DB_Employee:
         sql = text("select * from employee where id = :id")
         rows = db.execute(sql, id = emp_id).fetchone()
         return rows
-    

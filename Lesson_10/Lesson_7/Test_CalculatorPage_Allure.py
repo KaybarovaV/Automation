@@ -18,4 +18,3 @@ def test_calculator_page():
     result = calculator_page.result()
     assert result == '15'
     driver.quit()
-    

@@ -223,5 +223,4 @@ def test_edit_employee_db():
     get_empl = emp.get_employee_by_id(employee_id)
 
     # проверим запись удаленного сотрудника в БД. Должно быть None
-    assert get_empl == None
-    
+    assert get_empl == None    
