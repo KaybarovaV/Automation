@@ -27,5 +27,4 @@ class CheckoutPage:
         """
         Нажатие на кнопку Continue
         """
-        self._driver.find_element(By.CSS_SELECTOR, '#continue').click()
-        
+        self._driver.find_element(By.CSS_SELECTOR, '#continue').click() 
