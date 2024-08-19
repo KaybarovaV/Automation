@@ -12,3 +12,4 @@ class CartPage:
         Нажатие на кнопку Checkout
         """
         self._driver.find_element(By.CSS_SELECTOR, '#checkout').click()
+        

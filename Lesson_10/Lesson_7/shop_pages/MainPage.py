@@ -14,3 +14,4 @@ class MainPage:
         self._driver.find_element(By.CSS_SELECTOR, '#user-name').send_keys(username)
         self._driver.find_element(By.CSS_SELECTOR, '#password').send_keys(password)
         self._driver.find_element(By.CSS_SELECTOR, '#login-button').click()
+        

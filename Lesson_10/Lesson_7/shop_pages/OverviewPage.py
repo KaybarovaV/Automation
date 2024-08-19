@@ -13,3 +13,4 @@ class OverviewPage:
         """
         total = self._driver.find_element(By.CSS_SELECTOR, '.summary_total_label').text
         return total
+    
